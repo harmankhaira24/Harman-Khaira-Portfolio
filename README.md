@@ -52,9 +52,9 @@ I'm a first-year B.Tech Computer Science Engineering student passionate about:
 
 📜 Email: [harmankhaira202114@gmail.com](mailto:harmankhaira202114@gmail.com)
 
-💼 LinkedIn: Harman Khaira
+💼 LinkedIn: Harman Khaira(https://www.linkedin.com/in/harman-khaira-13481337a/)
 
-🕰️ GitHub: harmankhaira24
+🕰️ GitHub: harmankhaira24(https://github.com/harmankhaira24)
 
 ---
 
