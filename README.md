@@ -58,4 +58,4 @@ I'm a first-year B.Tech Computer Science Engineering student passionate about:
 
 ---
 
-### ✨ Designed & Developed by Harmanjit Kaur Khaira
+### 🍂 Designed & Developed by Harmanjit Kaur Khaira
