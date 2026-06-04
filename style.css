@@ -1,0 +1,380 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F0;
+    color: #1F150C;
+    overflow-x: hidden;
+}
+
+/* =========================
+   COMMON SLIDES
+========================= */
+
+.slide{
+    min-height: 100vh;
+    padding: 80px 8%;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #1F150C;
+}
+
+/* =========================
+   SLIDE 1 - HERO
+========================= */
+
+.hero{
+    background: #EAE0CF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* Navigation */
+
+nav{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4B2E2B;
+
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #8C5A3C;
+}
+
+/* Hero Layout */
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 80px;
+
+    margin-top: 40px;
+}
+
+.hero-name-left,
+.hero-name-right{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 8rem;
+    font-weight: 600;
+
+    color: #412D15;
+
+    letter-spacing: 2px;
+}
+
+.hero-image img{
+    width: 420px;
+    height: 560px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+/* Role */
+
+.hero-role{
+    text-align: center;
+
+    margin-top: 50px;
+
+    color: #4B2E2B;
+
+    font-size: 1.1rem;
+
+    letter-spacing: 1px;
+}
+
+.hero-role p:first-child{
+    margin-bottom: 10px;
+}
+
+/* =========================
+   SLIDE 2 - ABOUT
+========================= */
+
+.about-slide{
+    background: #FFF8F0;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 80px;
+
+    padding: 140px 8%;
+}
+
+.about-column,
+.education-column{
+    flex: 1;
+}
+
+.about-column h2,
+.education-column h2{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 5rem;
+
+    font-weight: 600;
+
+    color: #1F150C;
+
+    margin-bottom: 50px;
+
+    line-height: 1;
+}
+
+.about-column p,
+.education-column p{
+    font-size: 1.2rem;
+
+    line-height: 2;
+
+    color: #412D15;
+}
+
+.education-item{
+    margin-bottom: 60px;
+}
+
+.education-item h3{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 2rem;
+
+    margin-bottom: 20px;
+
+    color: #1F150C;
+}
+
+/* =========================
+   SLIDE 3 - SKILLS
+========================= */
+
+.skills-slide{
+    background: #EAE0CF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-slide h2{
+    margin-bottom: 80px;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 25px;
+
+    max-width: 1200px;
+}
+
+.skills-container span{
+    border: 1px solid #C08552;
+
+    padding: 16px 32px;
+
+    border-radius: 50px;
+
+    font-size: 1.2rem;
+
+    color: #412D15;
+
+    letter-spacing: 1px;
+
+    transition: all 0.3s ease;
+}
+
+.skills-container span:hover{
+    background: #8C5A3C;
+
+    color: #FFF8F0;
+
+    transform: translateY(-2px);
+}
+/* =========================
+   SLIDE 4 - CERTIFICATIONS
+========================= */
+
+.certifications-slide{
+    background: #FFF8F0;
+}
+
+.certifications-slide h2{
+    margin-bottom: 70px;
+}
+
+.certificate{
+    display: flex;
+    gap: 40px;
+
+    margin-bottom: 50px;
+}
+
+.number{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 3rem;
+
+    color: #8C5A3C;
+
+    min-width: 80px;
+}
+
+.certificate h3{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+
+    color: #1F150C;
+}
+
+.certificate p{
+    color: #4B2E2B;
+}
+
+/* =========================
+   SLIDE 5 - CONTACT
+========================= */
+
+.contact-slide{
+    background: #EAE0CF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-slide h2{
+    margin-bottom: 80px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-item h3{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 1.8rem;
+
+    margin-bottom: 10px;
+}
+
+.contact-item p,
+.contact-item a{
+    color: #412D15;
+
+    text-decoration: none;
+
+    font-size: 1.05rem;
+}
+
+.contact-item a:hover{
+    color: #8C5A3C;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:1000px){
+
+    .hero-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-name-left,
+    .hero-name-right{
+        font-size: 4rem;
+    }
+
+    .hero-image img{
+        width: 300px;
+        height: 400px;
+    }
+
+    .about-slide{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:600px){
+
+    nav ul{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .hero-name-left,
+    .hero-name-right{
+        font-size: 3rem;
+    }
+
+    .hero-image img{
+        width: 250px;
+        height: 320px;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    .certificate{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
