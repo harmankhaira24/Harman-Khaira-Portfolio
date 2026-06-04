@@ -59,3 +59,5 @@ I'm a first-year B.Tech Computer Science Engineering student passionate about:
 ---
 
 ### 🍂 Designed & Developed by Harmanjit Kaur Khaira
+🤎 Live Portfolio:
+https://harmankhaira24.github.io/Harman-Khaira-Portfolio/
