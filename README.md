@@ -12,7 +12,6 @@ Inspired by editorial layouts and minimalist luxury design, this portfolio showc
 
 I'm a first-year B.Tech Computer Science Engineering student passionate about:
 
-✦ Frontend Development
 ✦ Problem Solving
 ✦ Clean User Experiences
 ✦ Creative Design
